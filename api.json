@@ -328,15 +328,6 @@
           "BE0101N1"
         ]
       }
-    },
-    {
-      "code": "Tid",
-      "selection": {
-        "filter": "item",
-        "values": [
-          "2023"
-        ]
-      }
     }
   ],
   "response": {

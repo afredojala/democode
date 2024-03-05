@@ -70,4 +70,7 @@ def upload_df_to_s3(df: pl.DataFrame):
 
 
 if __name__ == "__main__":
-    extract_data()
+    data = extract_data()
+    mappings = get_column_mappings()
+    df = create_dataframe(data, mappings)
+    upload_df_to_s3(df)
